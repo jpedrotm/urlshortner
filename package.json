@@ -1,0 +1,26 @@
+{
+  "name": "urlshortner",
+  "version": "1.0.0",
+  "description": " URL Shortner built with Amazon Web Services",
+  "main": "index.js",
+  "dependencies": {
+    "amazon-dax-client": "^1.2.2",
+    "aws-sdk": "^2.536.0"
+  },
+  "devDependencies": {
+    "lambda-local": "^1.7.1"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpedrotm/urlshortner"
+  },
+  "author": "j.pedroteixeira.monteiro@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpedrotm/urlshortner/issues"
+  },
+  "homepage": "https://github.com/jpedrotm/urlshortner#README"
+}
