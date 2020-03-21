@@ -11,7 +11,7 @@ This project was built to become more familiar with Amazon Web Services, more sp
 
 For local development, follow the steps below:
 
-1. First, we need to setup a local *DynamobDB*. For this, run the command **from the root project**. This will run docker with the configurations in the `docker-compose.yml` file
+1. First, we need to setup a local *DynamoDB*. For this, run the command **from the root project**. This will run docker with the configurations in the `docker-compose.yml` file
     ```bash
     docker-compose up -d
     ```
@@ -20,6 +20,9 @@ For local development, follow the steps below:
     npm install
     ```
 3. Now, we are ready to go. To run lambda, you just need to run the command provided below and change json payload on `lambda/test.js` file, which represents the payload lambda will receive from *API Gateway*
+    ```bash
+    npm run local
+    ```
 
 ## Deployment
 

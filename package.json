@@ -11,7 +11,7 @@
     "lambda-local": "^1.7.1"
   },
   "scripts": {
-    "test": "test"
+    "local": "node lambda/test.js"
   },
   "repository": {
     "type": "git",
